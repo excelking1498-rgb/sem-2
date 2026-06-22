@@ -6,7 +6,7 @@ abstract class BankAccount {
     BankAccount(int accountNumber, String accountHolderName, double balance) {
         this.accountNumber = accountNumber;
         this.accountHolderName = accountHolderName;
-        this.balance = balance;
+        this.balance =  balance;
     }
 
     public int getAccountNumber() {
